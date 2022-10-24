@@ -1,0 +1,43 @@
+
+ { "trivial": [
+    {
+        "answer": "¿Cuál es la montaña más alta del mundo?",
+        "correcta": "Everest", 
+        "respuestas": ["Teide", "Monte K2", "Everest", "Mont Blanc"]
+
+    },
+    {
+        "answer": "¿Cuál es el río más lago del planeta?",
+        "correcta": "Amazonas", 
+        "respuestas": ["Nilo", "Misisipi", "Tajo", "Amazonas"]
+        
+        
+    },
+    {
+        "answer": "¿Cuál es la serpiente más venenosa?", 
+        "correcta": "Mamba Negra", 
+        "respuestas": ["Cobra Real", "Mamba Negra", "Vívora", "Cobra Filipina"]
+    },
+    {
+        "answer": "¿Cuántas lunas tiene Júpiter?",
+        "correcta": "79", 
+        "respuestas": ["53", "79", "91", "38"]
+    },
+    {
+        "answer": "¿Cuál es el animal más peligroso?",
+        "correcta": "Rana Dardo Dorada",
+        "respuestas": ["Tiburón", "Hipopotamo", "Pez Globo", "Rana dardo dorada"]
+        
+    },
+    {
+        "answer": "¿Cúal es el mamífero más pequeño?",
+        "correcta": "Murciélago Abeja", 
+        "respuestas": ["Murciélago Abeja", "Musaraña", "Jerbo Pigmeo", "Ratón de campo"]
+        
+    }
+]
+
+}  
+   
+    
+     

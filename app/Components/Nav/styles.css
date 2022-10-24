@@ -1,0 +1,66 @@
+.navPoke {
+    display: flex;
+    width: 100%;
+    gap: 7rem;
+    padding-top: 2rem;
+}
+
+.navPoke > img {
+    width: 15rem;
+}
+
+.search-cont {
+    display: flex;
+    align-items: center;
+}
+
+.search-cont > input {
+    font-family: Emotion_Engine;
+    height: 1.7rem;
+    width: 14rem;
+    border: none;
+    padding: 0rem 1.5rem;
+
+}
+
+.search-cont > input::-webkit-input-placeholder {
+    font-family: Emotion_Engine;
+    color: rgba(0, 0, 0, 0.328);
+    text-align: center;
+    background: #FFFCF8
+}
+.search-cont > input:focus {
+    outline: none;
+}
+.search-cont > button {
+    width: 2rem;
+    height: 1.7rem;
+    border: none;
+    background: #FFFCF8
+}
+
+.filter {
+    height: 1.7rem;
+    align-self: center;
+    width: 11rem;
+    border: none;
+    font-family: 'Emotion_Engine';
+    text-align: center;
+    font-size: 1rem;
+    background: #FFFCF8
+}
+
+.btnReturn {
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    border: none;
+    background: url("https://cdn-icons-png.flaticon.com/512/61/61426.png") center center no-repeat; 
+    background-size: cover
+}
+
+.btnReturn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.2);
+}
+

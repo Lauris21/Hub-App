@@ -1,0 +1,49 @@
+.loginClass {
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 50px 50px 50px;
+    gap: 1rem;
+}
+
+.h1Login {
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+}
+
+.h3Login {
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.inputLogin {
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: center;
+    border-radius: .3125rem;
+    border: 0;
+    outline: none;
+    height: 1.4rem;
+    padding: 1rem;
+
+}
+
+.inputLogin::-webkit-input-placeholder {
+    text-align: center;
+
+}
+
+.btnLogin {
+    grid-row: 4 / 5;
+    align-self: center;
+    justify-self: center;
+    width: 3.5rem;
+    height: 2rem
+}

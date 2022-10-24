@@ -1,0 +1,82 @@
+.cuentaAtras {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+   
+}
+
+.pCuenta{
+    font-size: 5rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 48px;
+}
+
+.boxScore {
+    display: flex;
+}
+
+.boxScore > span {
+    margin: auto;
+    font-size: 2rem;
+    height: 4rem;
+}
+.endDiv {
+    margin-left: 10rem;
+    justify-self: center;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    background: #afebf6c2;
+    font-size: 4rem;
+}
+.holesTopos {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+.hole {
+    flex: 1 0 23.33%;
+    overflow: hidden;
+    position: relative;
+  }
+
+.hole:after {
+    display: block;
+    display: block;
+    background: url("../../assets/madriguera-removebg-preview.png")
+      bottom center no-repeat;
+    background-size: contain;
+    content: "";
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+  }
+
+.hole > .topin {
+    background: url("../../assets/images-.png")
+      bottom center no-repeat;
+    background-size: 80%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s;
+  }
+
+.hole.hello .topin {
+    top: 0;
+  }
+

@@ -1,0 +1,30 @@
+.boxQuestions {
+    display: none;
+    position: relative;
+    width: fit-content;
+    padding: 2rem;
+    height: 20rem;
+    margin: auto;
+    background-color: var(--fondo);
+    margin-top: 5rem;
+}
+
+.questions {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 2rem;
+}
+.questions > button {
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    background: #fff7dbcc;
+}
+
+#boxQues0 {
+    display: block;
+}

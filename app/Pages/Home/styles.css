@@ -1,0 +1,75 @@
+
+.boxWellcome {
+    text-align: center;
+}
+.boxWellcome > h1 {
+    font-size: 2.5rem;
+}
+
+
+.listGames {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, max-min(250px, 1fr));
+    width: 100vw;
+    padding: 1rem 2rem;
+    justify-content: center;
+    gap: 1rem
+}
+.listGames > li {
+    list-style-type: none;
+}
+.btnGames {
+    display: flex;
+    height: 10rem;
+    width: 19rem;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    background: #fffde1f5;
+    margin: auto;
+    
+}
+
+.btnGames:hover {
+    transform: scale(1.15);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btnGames > img {
+    max-height: 9rem;
+    max-width: 19rem;
+    justify-self: center;
+    align-self: center;
+    size: cover;
+    border-radius: 5px;
+    -webkit-filter: blur(3px) sepia(100%);
+    filter: blur(3px) sepia(100%);
+    z-index: 1;
+    width: inherit;
+    padding: 1rem 3.5rem;
+    background: #fffde1f5
+}
+
+.btnGames > img:hover {
+    -webkit-filter: blur(0px) sepia(0%);
+    filter: blur(0px) sepia(35%);
+    z-index: 2;
+}
+
+.h2Games {
+    position: absolute;
+    width: 10rem;
+    text-align: center;
+    z-index: 2;
+    background: #afebf6c2;
+    width: inherit;
+    font-size: 2rem;
+}
+ .h2Games:hover {
+    z-index: 1;
+    background: none;
+ }
+
+
+
+

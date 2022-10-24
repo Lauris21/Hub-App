@@ -1,0 +1,27 @@
+.paperGames {
+    height: 25rem;
+    width: 40rem;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://us.123rf.com/450wm/genevskayamariya/genevskayamariya1711/genevskayamariya171100113/90276186-vector-sin-patr%C3%B3n-con-signos-de-interrogaci%C3%B3n-blancos-sobre-un-fondo-negro.jpg?ver=6");
+    background-color: #7777777c;
+    box-sizing: border-box;
+} 
+
+.inicioGamess {
+        height: 3rem;
+        width: 8rem;
+        border: none;
+        box-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 10px #fff,
+        0 0 17px #fe1375,
+        0 0 50px #fe1369,
+        0 0 75px #fe13a4,
+        0 0 90px #fe139c,
+        0 0 150px #fe13b4;
+ }

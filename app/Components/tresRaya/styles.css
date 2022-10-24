@@ -1,0 +1,33 @@
+.contRaya {
+    width: 100vw;
+    display: grid;  
+}
+
+.tituloRaya {
+    text-align: center;
+    align-self: center;
+    height: 3rem;
+}
+
+.textoFin {
+    visibility: hidden;
+}
+.boxRaya {
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 420px;
+}
+
+.f {
+    width: 140px;
+    height: 140px;
+    font-family: Warrior_Brush, sans-serif;
+    font-size: 2rem;
+}
+
+.repeat {
+    margin: auto;
+    margin-top: 2rem;
+}

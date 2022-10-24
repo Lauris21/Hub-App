@@ -1,0 +1,289 @@
+.divCards {
+    width: 100%;
+    padding: 2rem 5rem;
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-family: Emotion_Engine, sans-serif;
+    overflow: wrap;
+    gap: 2rem;
+    
+}
+
+.cardPoke {
+    display: grid;
+    gap: 0.5rem;
+    border: 0.5px solid rgba(135, 135, 135, 0.709);
+    border-radius: 18px;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    color: rgb(92, 92, 92);
+  
+
+}
+.cardPoke:hover {
+    transform: scale(1.2);
+}
+
+.cardPoke > img {
+    border-radius: 50%;
+    background: #fffcf8;
+    justify-self: center;
+    
+}
+
+.h3details {
+    font-family: Emotion_Engine;
+    justify-self: center;
+}
+
+.cardPoke > p {
+    font-family: Emotion_Engine;
+    justify-self: center;
+    margin: auto;
+    border-radius: 2px;
+
+}
+.details {
+    display: flex;
+    place-content: center;
+    gap: 0.5rem;
+    padding: 0.2rem 0.7rem 0.7rem 0.7rem;
+    
+}
+
+.details > p {
+    font-family: Emotion_Engine;
+    text-align: center;
+}
+
+.grass {
+    background-color: rgb(157, 246, 182);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #56fe13,
+    0 0 4px #56fe13,
+    0 0 3px #5dfe13,
+    0 0 3px #2bfe13,
+    0 0 3px #42fe13;
+}
+.fire {
+    background-color: rgb(251, 150, 150);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fe1313,
+    0 0 4px #fe1313,
+    0 0 3px #fe1313,
+    0 0 3px #fe1313,
+    0 0 3px #fe1313;
+}
+.water {
+    background-color: rgb(169, 227, 247);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #135dfe,
+    0 0 4px #1352fe,
+    0 0 3px #132efe,
+    0 0 3px #134afe,
+    0 0 3px #133efe;
+}
+.bug {
+    background-color: rgb(251, 238, 197);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fed313,
+    0 0 4px #fec713,
+    0 0 3px #fec713,
+    0 0 3px #fecb13,
+    0 0 3px #fec313;
+}
+.normal {
+    background-color: rgb(217, 217, 217);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #e4e3e4,
+    0 0 4px #b0b0b0,
+    0 0 3px #939393,
+    0 0 3px #999999,
+    0 0 3px #919191;
+}
+.poison {
+    background-color: rgb(222, 251, 167);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #bc13fe,
+    0 0 4px #bc13fe,
+    0 0 3px #bc13fe,
+    0 0 3px #bc13fe,
+    0 0 3px #bc13fe;
+}
+.electric {
+    background-color: rgb(246, 251, 142);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fafe13,
+    0 0 4px #feea13,
+    0 0 3px #fef213,
+    0 0 3px #fef613,
+    0 0 3px #f6fe13;
+}
+.ground {
+    background-color: rgb(250, 208, 129);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fe9c13,
+    0 0 4px #fe9413,
+    0 0 3px #fe7d13,
+    0 0 3px #fe6113,
+    0 0 3px #fe7913;
+}
+.fairy {
+    background-color: rgb(232, 208, 249);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fe13ac,
+    0 0 4px #fe13ac,
+    0 0 3px #fe13a4,
+    0 0 3px #fe13b8,
+    0 0 3px #fe13bb;
+}
+.fighting {
+    background-color: rgb(250, 198, 216);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #6913fe,
+    0 0 4px #6913fe,
+    0 0 3px #6913fe,
+    0 0 3px #7d13fe,
+    0 0 3px #7113fe;
+}
+.psychic {
+    background-color: rgb(254, 159, 159);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #13eefe,
+    0 0 4px #13fef6,
+    0 0 3px #13fefe,
+    0 0 3px #13f2fe,
+    0 0 3px #13fef2;
+}
+.rock {
+    background-color: rgb(190, 170, 170);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #b4858c,
+    0 0 4px #ab7b7b,
+    0 0 3px #a07777,
+    0 0 3px #997777,
+    0 0 3px #a17979;
+}
+.ghost {
+    background-color: rgb(173, 138, 171);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #13feac,
+    0 0 4px #13fec7,
+    0 0 3px #13fea4,
+    0 0 3px #13fea8,
+    0 0 3px #13fea0;
+}
+.ice {
+    background-color: rgb(162, 193, 193);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #84aaae,
+    0 0 4px #82acb4,
+    0 0 3px #769eab,
+    0 0 3px #7ea5ab,
+    0 0 3px #71879f;
+}
+.dragon {
+    background-color: rgb(148, 253, 134);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 17px #fd0050,
+    0 0 4px #ff0059,
+    0 0 3px #ff0059,
+    0 0 3px #fe1385,
+    0 0 3px #ff005d;
+}
+
+
+
+
+
+.grass > p {
+    background-color: rgb(214, 248, 214);
+}
+.fire > p {
+    background-color: rgb(254, 124, 124);
+}
+.water > p {
+    background-color: rgb(118, 217, 250);
+}
+.bug > p {
+    background-color: rgb(250, 225, 143);
+}
+.normal > p {
+    background-color: rgb(252, 239, 239);
+}
+.poison > p {
+    background-color: rgb(209, 251, 129);
+}
+.electric > p {
+    background-color: rgb(245, 250, 112);
+}
+.ground > p {
+    background-color: rgb(216, 165, 71);
+}
+.fairy > p {
+    background-color: rgb(214, 162, 251);
+}
+.fighting > p {
+    background-color: rgb(250, 144, 181);
+}
+.psychic > p {
+    background-color: rgb(214, 121, 242);
+}
+.rock > p {
+    background-color: rgb(145, 142, 142);
+}
+.ghost > p {
+    background-color: rgb(233, 189, 231);
+}
+.ice > p {
+    background-color: rgb(161, 215, 215);
+}
+.dragon > p {
+    background-color: rgb(118, 249, 100);
+}

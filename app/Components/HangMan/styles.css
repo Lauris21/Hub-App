@@ -1,0 +1,91 @@
+.tableroMan {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    width: 100vw;
+    gap: 5rem;
+    
+}
+
+.man {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.headman {
+    display: none;
+    
+    
+
+}
+
+.headman > img {
+    margin: auto;
+}
+
+.bodyman {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.leng {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divAciertos {
+    border-bottom: 1px solid black;
+    width: 1.5rem;
+}
+
+.boxLetter {
+    display: flex;
+    height: 2rem;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+span {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.pFallo {
+    width: 20rem;
+    height: 5rem;
+    letter-spacing: 1rem;
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.inputFallo {
+    width: 35rem;
+    border: none;
+    background: #f6f6d1;
+    height: 2rem;
+    border-radius: .3125rem;
+    outline: none;
+    padding: 0.7rem;
+}
+
+.bodyh {
+    display:none;
+}
+
+.lefth {
+    display: none;
+}
+.righth {
+    display: none;
+}
+
+.leftl {
+    display: none;
+}
+.leftr {
+    display: none;
+}
+
