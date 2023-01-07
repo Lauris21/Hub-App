@@ -21,9 +21,7 @@ export const cardsPoke = (list) => {
         app.appendChild(divCards);
    
 };
-
-
-    
+ 
 export const eventoSearch = (list) => {
     const inputSearch = document.querySelector("#search");
     inputSearch.addEventListener("input", (ev) => search(list, ev.target.value))}  

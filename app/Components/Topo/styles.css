@@ -37,7 +37,7 @@
     font-size: 4rem;
 }
 .holesTopos {
-    width: 600px;
+    max-width: 600px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;

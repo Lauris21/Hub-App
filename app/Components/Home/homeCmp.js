@@ -1,8 +1,8 @@
-import { showName } from "../../Utils/user"
+import { showName } from "../../Utils/user";
 
 export const homeCmp = () => {
-    const app = document.querySelector("#app");
-    app.innerHTML = `
+  const app = document.querySelector("#app");
+  app.innerHTML = `
         <div class="boxWellcome">
             <h1>Wellcome ${showName()} 🎮</h1>
         </div>
@@ -12,12 +12,6 @@ export const homeCmp = () => {
                     <button id="btnGames1" class="btnGames1 btnGames">
                         <h2 class="h2Games">3 en raya</h2>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg" alt="juego 3 en raya" />
-                    </button>
-                </li>
-                <li class="li2">
-                    <button id="btnGames2" class="btnGames2 btnGames">
-                        <h2 class="h2Games">Memory Game</h2>
-                        <img src="https://bananapanda.com/wp-content/uploads/2020/10/5902768336795_AV1.jpg" alt="juego memory game" />
                     </button>
                 </li>
                 <li class="li3">
@@ -47,5 +41,5 @@ export const homeCmp = () => {
             
             </ul>
         </div>
-    `
-}
+    `;
+};

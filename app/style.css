@@ -170,7 +170,7 @@ body {
 
     .holesTopos {
         width: 357px;
-        height: 427px;
+        height: 300px;
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
@@ -185,15 +185,6 @@ body {
         margin: auto;
         font-size: 2rem;
         height: 4rem;
-    }
-    
-    .holesTopos {
-        width: 600px;
-        height: 400px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        cursor: crosshair;
     }
     
     .hole {

@@ -6,7 +6,6 @@ let timeEnd = false;
 let score = 0;
 
 
-
 const timeRandom = (max, min) => {
     return Math.round(Math.random() * (max - min) + min);
 }

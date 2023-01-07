@@ -4,22 +4,10 @@ import { cardsPoke, eventoSearch } from "../../Components/CardPoke/cardsPoke"
 import { typeOption } from "../../Components/Nav/nav";
 import { changeOption } from "../../Components/Nav/nav";
 
-export const initAppi = () => {
-    getPokeApi();
-}
+
 
 let listPoke;
 
-const getPokeApi = async () => {
-    let pokeApi = [];
-    for (let i = 1; i < 152; i++) {
-        pokeApi.push(await getApi(i));
-    }
-    listPoke = pokeApi;
-    mapeoApi(listPoke);
-    searchType(listPoke);
-
-}
 
 const mapeoApi = (list) => {
     let pokemons = list.map((item) => {
@@ -40,7 +28,8 @@ const mapeoApi = (list) => {
     changeOption(pokemons);
 }
 
-    const searchType = () => {
+
+const searchType = () => {
         let tipos = listPoke.map((item) => {
             return {
                 typ: item.types[0].type.name,
@@ -60,7 +49,21 @@ const mapeoApi = (list) => {
         }
 
             typeOption(tiposOfPok);
-    
      }
+
+
+const getPokeApi = async () => {
+        let pokeApi = [];
+        for (let i = 1; i < 152; i++) {
+            pokeApi.push(await getApi(i));
+        }
+        listPoke = pokeApi;
+        mapeoApi(listPoke);
+        searchType(listPoke);
     
+    }    
+    
+export const initAppi = () => {
+        getPokeApi();
+    }
 
